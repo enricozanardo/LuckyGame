@@ -7,4 +7,8 @@ The winner will receive the total amount of tokens supplied to this smart contra
 The game begins with a blank slate.
 
 - Define the owner of the smart contract;
+- Set the owner has private variable;
+- Define a function to allow the change of ownership of the smart contract;
+- Protect this fuction using a **modifier**;
+
 - Store the number of tokens that every user has sent to the smart contract;
