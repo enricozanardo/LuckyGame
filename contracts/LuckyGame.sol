@@ -6,10 +6,14 @@ import "hardhat/console.sol";
 
 contract LuckyGame {
     // Define the owner of the smart contract
-    address public owner;
+    address private owner;
 
     constructor() {
         console.log("Owner contract deployed by:", msg.sender);
         owner = msg.sender;
+    }
+
+    function getOwner() external view returns (address) {
+        return owner;
     }
 }
