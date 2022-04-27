@@ -1,0 +1,24 @@
+{
+  "name": "luckygame",
+  "version": "1.0.0",
+  "description": "Tokens are sent to the smart contract by users. The user who sent the tokens to this smart contract for the third time will be chosen as the winner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onezerobinary/LuckyGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onezerobinary/LuckyGame/issues"
+  },
+  "homepage": "https://github.com/onezerobinary/LuckyGame#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "hardhat": "^2.9.3",
+    "web3": "^1.7.3"
+  }
+}
